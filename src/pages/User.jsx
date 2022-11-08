@@ -230,7 +230,7 @@ export default function User() {
     <Container>
         <TitleConatiner>
            <Title>Edit User</Title>
-           <Link to="/ecom-admin/newUser">
+           <Link to="/newUser">
            <CreateButton>Create</CreateButton>
            </Link>
         </TitleConatiner>

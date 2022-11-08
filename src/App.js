@@ -29,7 +29,7 @@ function App() {
     
     <Router>
       <Switch>
-      <Route path="ecom-admin/login" element={<Login/>}/>
+      <Route path="/login" element={<Login/>}/>
       </Switch>
     </Router>
     <Router>
@@ -38,13 +38,13 @@ function App() {
       <Wrapper>
          <SideBar/>
        <Switch>
-        <Route path="/ecom-admin/" element={<Home/>}/>
-        <Route path="/ecom-admin/users" element={<UserList/>}/>
-        <Route path="/ecom-admin/user/:userId" element={<User/>}/>
-        <Route path="/ecom-admin/newUser" element={<NewUser/>}/>
-        <Route path="/ecom-admin/products" element={<ProductList/>}/>
-        <Route path="/ecom-admin/product/:productId" element={<Product/>}/>
-        <Route path="/ecom-admin/newProduct" element={<NewProduct/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/users" element={<UserList/>}/>
+        <Route path="/user/:userId" element={<User/>}/>
+        <Route path="/newUser" element={<NewUser/>}/>
+        <Route path="/products" element={<ProductList/>}/>
+        <Route path="/product/:productId" element={<Product/>}/>
+        <Route path="/newProduct" element={<NewProduct/>}/>
       </Switch>
       </Wrapper>
       </>

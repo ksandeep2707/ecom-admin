@@ -113,7 +113,7 @@ export default function ProductList() {
           renderCell: (params) => {
             return (
               <>
-                <Link to={"/ecom-admin/product/" + params.row._id}>
+                <Link to={"/product/" + params.row._id}>
                   <UserListEdit>Edit</UserListEdit>
                 </Link>
                 <DeleteOutline
