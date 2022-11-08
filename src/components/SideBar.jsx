@@ -88,7 +88,7 @@ export default function SideBar() {
                    DashBoard
                 </Title>
                 <List >
-                <Link to="/" style={LinkStyle}>
+                <Link to="/ecom-admin/" style={LinkStyle}>
                     <ListItem active={data[0]} onClick={()=>setHover(0)}>
                        <LineStyle style={Logoicon} />
                        Home
@@ -109,13 +109,13 @@ export default function SideBar() {
                    Quick Menu
                 </Title>
                 <List>
-                   <Link to="/users" style={LinkStyle}>
+                   <Link to="/ecom-admin/users" style={LinkStyle}>
                     <ListItem active={data[3]} onClick={()=>setHover(3)}>
                        <PermIdentity style={Logoicon}/>
                        Users
                     </ListItem>
                    </Link>
-                   <Link to="/products" style={LinkStyle}>
+                   <Link to="/ecom-admin/products" style={LinkStyle}>
                     <ListItem active={data[4]} onClick={()=>setHover(4)}> 
                        <Storefront style={Logoicon}/>
                        Products

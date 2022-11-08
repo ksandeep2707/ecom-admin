@@ -302,7 +302,7 @@ export default function Product()
     <Container>
         <TitleConatiner>
            <Title>Product</Title>
-           <Link to="/newProduct">
+           <Link to="/ecom-admin/newProduct">
            <CreateButton>Create</CreateButton>
            </Link>
         </TitleConatiner>

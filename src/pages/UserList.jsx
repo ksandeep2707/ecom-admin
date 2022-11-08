@@ -100,7 +100,7 @@ export default function UserList() {
           renderCell: (params) => {
             return (
               <>
-                <Link to={"/user/" + params.row.id}>
+                <Link to={"/ecom-admin/user/" + params.row.id}>
                   <UserListEdit>Edit</UserListEdit>
                 </Link>
                 <DeleteOutline
