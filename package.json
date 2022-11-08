@@ -1,6 +1,5 @@
 {
   "name": "admin",
-  "homepage": "https://ksandeep2707.github.io/ecom-admin",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
